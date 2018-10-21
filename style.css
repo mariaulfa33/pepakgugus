@@ -3,7 +3,7 @@
   }
 
   body{
-    margin:0;
+    margin:0 auto;
   }
 
   #homepage{
@@ -11,7 +11,7 @@
     width: 100%;
     height: 48vw;
     text-align:center;
-    margin-bottom: 0.5vw;
+    margin-bottom: 10vw;
  }
 
  #homepage img{
@@ -64,12 +64,8 @@
     text-align: center;
   }
 
-  div.image {
-    border: 1px solid #ccc;
-}
-
 div.image:hover {
-  border: 10px solid orange;
+  border: 1vw solid orange;
 }
 
 div.image img{
@@ -78,7 +74,7 @@ div.image img{
 }
 
 div.desc {
-    padding: 1.5vw;
+    padding: 1vw;
     text-align: center;
     font-size: 1vw;
 }
@@ -86,15 +82,15 @@ div.desc {
 .gallery {
     padding: 0 6px;
     float: left;
-    width: 24.99999%;
-}
+    height: 35vw;
+    width: 25%;
+  }
 
 footer {
   position: relative;
   background-color: black;
   color: white;
-  /* margin: 10px 5px; */
-  padding: 10px 5px;
+  padding: 1vw 3vw;
   width: 100%;
 }
 
@@ -110,6 +106,7 @@ flex-wrap: wrap;
 footer span {
 display: inline-block;
 padding-bottom: 10px;
+font-size: 1vw;
 }
 
 
@@ -122,21 +119,18 @@ padding-bottom: 10px;
 .menu2 {
   overflow: hidden;
   background-color: rgba(255,140,0,0.8);
+  height: 3vw;
   position: fixed;
   width: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 0;
 }
 
 .menu2 a {
   float: left;
   color: white;
   text-align: center;
-  padding: 2vw;
+  padding: 1vw;
   text-decoration: none;
-  font-size: 1vw; 
-  line-height: 25px;
+  font-size: 1vw;
 
 
 }
@@ -144,11 +138,13 @@ padding-bottom: 10px;
 .menu2 a:hover {
   background-color: orangered;
   color: white;
+  height: 100%;
 }
 
 .menu2 a.active {
   color: black;
   background-color: white;
+  height: 100%;
 }
 
 
@@ -159,13 +155,37 @@ padding-bottom: 10px;
   text-align:center;
 }
 
-
-
 .Storypage h1{
   font-size: 7vw;
-  margin : 10vw auto
+  margin : 10vw auto;
   
 }
+
+#article h2{
+  font-size: 3vw;
+  text-align: center;
+
+}
+
+#article h3{
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+#article p,
+ol#paragraf{
+  font-size: 1vw;
+  text-align: justify;
+}
+
+#article h4{
+  font-size: 2vw;
+}
+
+p#penulis{
+  text-align: center;
+}
+
 
 .column {
   float: left;
@@ -175,9 +195,7 @@ padding-bottom: 10px;
   margin-left:10vw;
   margin-top: 5vw;
   margin-bottom: 5vw;
-  
-  
-
+  text-align: center;
 }
 
 .row:after {
@@ -218,7 +236,7 @@ padding-bottom: 10px;
   
 @media only screen and (max-width: 1080px) {
   .gallery {
-      width: 50%;
+      width: 45%;
       margin: 6px 0;
   }
 }
